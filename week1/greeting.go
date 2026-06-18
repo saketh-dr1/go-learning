@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func greeting() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: go run main.go DSR")
 		os.Exit(1)
