@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// greeting()
 	// basic_type()
@@ -22,6 +20,8 @@ func main() {
 	// fmt.Printf("%T\n", getFunc) // func(string) func(string) string
 	// fmt.Println(sum(3, 2, 4))
 
-	s := sum([]int{1, 3, 4, 6, 2}...) // breaks the slice and then passes individual args to func
-	fmt.Println(s)
+	// s := sum([]int{1, 3, 4, 6, 2}...) // breaks the slice and then passes individual args to func
+	// fmt.Println(s)
+
+	struct_main()
 }
